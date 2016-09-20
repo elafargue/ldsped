@@ -21,6 +21,8 @@
 #ifndef UTILS_HEADERS
 #define UTILS_HEADERS 1
 
+#include "config.h"
+
 #include "agw.h"
 
 

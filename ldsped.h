@@ -44,10 +44,12 @@
 #include <arpa/inet.h>
 #include <time.h>
 
+#include "config.h"
+
 #ifdef HAVE_NETAX25_AX25_H
 #include <netax25/ax25.h>
 #else
-#include <netax25/kernel_ax25.h>
+#include <netax25/ax25.h>
 #endif
 #include <netax25/axconfig.h>
 

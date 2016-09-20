@@ -12,6 +12,7 @@
 #include <sys/socket.h>
 
 #include <config.h>
+#define HAVE_NETROSE_ROSE_H
 
 #ifdef HAVE_NETAX25_AX25_H
 #include <netax25/ax25.h>
